@@ -1,0 +1,34 @@
+# Credenciales: nunca dentro de la imagen
+.env
+.env.*
+*.env
+**/Credenciales*
+
+# Control de versiones y entorno de desarrollo
+.git
+.gitignore
+.devcontainer
+.vscode
+.idea
+
+# Notebooks y archivos que la app no necesita
+notebooks/
+scripts/
+pruebas.http
+README.md
+*.md
+Dockerfile
+.dockerignore
+
+# Cachés y entornos de Python
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
